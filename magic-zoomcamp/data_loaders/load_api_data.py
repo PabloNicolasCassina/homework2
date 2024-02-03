@@ -12,7 +12,7 @@ def load_data_from_api(*args, **kwargs):
     """
     Template for loading data from API
     """
-    url = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz'
+    url = "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz"
 
     taxi_dtypes = {
                     'VendorID': pd.Int64Dtype(),
