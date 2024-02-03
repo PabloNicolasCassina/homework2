@@ -21,6 +21,8 @@ def transform(data, *args, **kwargs):
 
     data.columns = [camel_to_snake(col) for col in data.columns]
 
+    
+
     print(f"Preprocessing: rows with zero passengers: {data['passenger_count'].isin([0]).sum()}")
 
     return data
@@ -33,7 +35,6 @@ def transform(data, *args, **kwargs):
 @test
 def test_output(output, *args):
 
-    print(output.columns)
     # Add three assertions
     assert output['vendor_id'].isin(output['vendor_id'].unique()).all(), 'Invalid vendor_id'
     assert (output['passenger_count'] > 0).all(), 'There are rides with zero passengers'

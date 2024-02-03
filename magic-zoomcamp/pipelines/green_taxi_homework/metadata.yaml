@@ -86,7 +86,7 @@ settings:
 spark_config: {}
 tags: []
 type: python
-updated_at: '2024-02-03 21:34:39'
+updated_at: '2024-02-03 21:41:51'
 uuid: green_taxi_homework
 variables_dir: /home/src/mage_data/magic-zoomcamp
 widgets: []
