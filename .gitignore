@@ -135,6 +135,7 @@ default_repo
 instance_metadata.json
 ~/.mage_data
 
+
 # test notebook
 test.ipynb
 
@@ -171,4 +172,5 @@ scratch*
 *secrets*.json
 magic-zoomcamp
 *.json
+mage-ai-terraform-templates
 
